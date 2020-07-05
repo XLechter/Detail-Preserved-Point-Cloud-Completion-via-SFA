@@ -6,7 +6,7 @@ Wenxiao Zhang, Qingan yan and Chunxia Xiao
 
 Wuhan University; JD.com American Technologies Corporation, CA
 ## Introduction
-PCAN is a point cloud completion framework which leverages separated feature aggregation to reconstruct the known and the missing part separately.
+We propose a point cloud completion framework which leverages separated feature aggregation to reconstruct the known and the missing part separately.
 This work is based on [PU-Net](https://github.com/yulequan/PU-Net) and [PCN](https://github.com/wentaoyuan/pcn).
 
 ![pic-network](overview.png)
