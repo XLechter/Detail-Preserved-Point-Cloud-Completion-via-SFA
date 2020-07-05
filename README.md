@@ -14,7 +14,7 @@ This work is based on [PU-Net](https://github.com/yulequan/PU-Net) and [PCN](htt
 ### 1) Pre-requisites
 * Python3
 * CUDA
-* tensorflow<2.0
+* tensorflow
 * tensorpack
 * matplotlib
 * lmdb
