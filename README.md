@@ -30,7 +30,7 @@ The TF operators are included under `tf_ops` and `pc_distance`, you need to comp
 **Important**: We modified the original source code `gather_point` function in `tf_sampling.cpp` and `tf_sampling_g.cu` to fit our needs. If you have already complied the sampling operator in other project, you need to recompile it.
 
 ### 3)Download pre-trained models
-Download pre-trained models on `trained_models` folder from [Google Drive](https://drive.google.com/open?id=1M_lJN14Ac1RtPtEQxNlCV9e8pom3U6Pa) and put them on `data/trianed_models` dir. The pre-trained models consist networks of RFA and GLFA.
+Download pre-trained models on `trained_models` folder from [Google Drive](https://drive.google.com/drive/folders/1-2gU_d2u3JH-N4vHhEEvuQ-ggzA4Xb93?usp=sharing) and put them on `data/trianed_models` dir. The pre-trained models consist networks of RFA and GLFA.
 
 ### 4) Testing
 
