@@ -1,5 +1,15 @@
-# CVPR2020_SubmissionID7345
-The source code for CVPR2020 Subbmission 7345
+# Detail Preserved Point Cloud Completion via Separated Feature Aggregation
+
+**[Detail Preserved Point Cloud Completion via Separated Feature Aggregation](https://arxiv.org/abs/1904.09793)** CVPR 2019
+
+Wenxiao Zhang, Qingan yan and Chunxia Xiao
+
+Wuhan University; JD.com American Technologies Corporation, CA
+## Introduction
+PCAN is a point cloud completion framework which leverages separated feature aggregation to reconstruct the known and the missing part separately.
+This work is based on [PU-Net](https://github.com/yulequan/PU-Net) and [PCN](https://github.com/wentaoyuan/pcn).
+
+![pic-network](overview.png)
 
 ### 1) Pre-requisites
 * Python3
