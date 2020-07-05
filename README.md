@@ -1,6 +1,6 @@
 # Detail Preserved Point Cloud Completion via Separated Feature Aggregation
 
-**[Detail Preserved Point Cloud Completion via Separated Feature Aggregation](https://arxiv.org/abs/1904.09793)** CVPR 2019
+**[Detail Preserved Point Cloud Completion via Separated Feature Aggregation]()** ECCV 2020
 
 Wenxiao Zhang, Qingan yan and Chunxia Xiao
 
