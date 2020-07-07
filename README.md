@@ -2,7 +2,7 @@
 
 **[Detail Preserved Point Cloud Completion via Separated Feature Aggregation](https://arxiv.org/abs/2007.02374)** ECCV 2020
 
-Wenxiao Zhang, Qingan yan and Chunxia Xiao
+Wenxiao Zhang, Qingan Yan, Chunxia Xiao
 
 Wuhan University; JD.com American Technologies Corporation, CA
 ## Introduction
