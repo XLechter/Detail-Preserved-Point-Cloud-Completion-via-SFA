@@ -30,11 +30,11 @@ The TF operators are included under `tf_ops` and `pc_distance`, you need to comp
 **Important**: We modified the original source code `gather_point` function in `tf_sampling.cpp` and `tf_sampling_g.cu` to fit our needs. If you have already complied the sampling operator in other project, you need to recompile it.
 
 ### 3)Download pre-trained models
-Download pre-trained models on `trained_models` folder from [Google Drive](https://drive.google.com/drive/folders/1-2gU_d2u3JH-N4vHhEEvuQ-ggzA4Xb93?usp=sharing) and put them on `data/trianed_models` dir. The pre-trained models consist networks of RFA and GLFA.
+Download pre-trained models on `trained_models` folder from [Google Drive](https://drive.google.com/drive/folders/1BjQxULQuAKrFaPSZbNMuacqPQp0rDSa4?usp=sharing) and put them on `data/trianed_models` dir. The pre-trained models consist networks of RFA and GLFA.
 
 ### 4) Testing
 
-1. Download ShapeNet test data on [Google Drive](https://drive.google.com/drive/folders/1W0ASe-EWNtlweBzu5t8V7hUULDDw6gTc?usp=sharing). Specifically, this experiment requires `test.lmdb` and `test_novel.lmdb`. Put them on `data/shapenet` folder.
+1. Download ShapeNet test data on [Google Drive](https://drive.google.com/drive/folders/13eaNcxrSeNaP1Y4iLPCY46W9YXGT2RHl?usp=sharing). Specifically, this experiment requires `test.lmdb` and `test_novel.lmdb`. Put them on `data/shapenet` folder.
 2. Run `python3 eval.py`. Use `--model_type` option to choose different model architectures. Use `--save_path` option to choose the folder to save the qualitative results. If you just want to see the quantitative results, you can set `--plot` to `False` for fast evaluation.
 
 Note that we use the same testing data in [PCN](https://www.cs.cmu.edu/~wyuan1/pcn/) project but we create the lmdb file for faster evaluation. You can also use the original pcd file provided on [PCN repository](https://github.com/wentaoyuan/pcn).
