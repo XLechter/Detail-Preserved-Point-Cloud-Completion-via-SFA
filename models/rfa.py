@@ -205,7 +205,9 @@ class Model:
 
             fine = mlp_conv(feat, [512, 512, 3]) + center
             print('fine:', fine)
-
+            
+            #fine = gather_point(fine, farthest_point_sample(2048, fine))
+            
         return coarse_highres, coarse, fine
 
     def create_loss(self, coarse_highres, coarse, fine, gt, theta):
