@@ -7,7 +7,7 @@ Wenxiao Zhang, Qingan Yan, Chunxia Xiao
 Wuhan University; JD.com American Technologies Corporation, CA
 
 ## Update 2022/6/13
-To test and generate the `submission.zip` file for completion3d leaderboard, run `eval_completion3d`. We follow the way of GRNet which directly use the pre-trained model on PCN dataset and downsample the results to 2048 points. You should also uncomment the `L209` in `rfa.py` to perform the downsample.
+To test and generate the `submission.zip` file for completion3d leaderboard, run `eval_completion3d.py`. We follow the way of GRNet which directly use the pre-trained model on PCN dataset and downsample the results to 2048 points. You should also uncomment the `L209` in `rfa.py` to perform the downsample.
 
 ## Introduction
 We propose a point cloud completion framework which leverages separated feature aggregation to reconstruct the known and the missing part separately.
